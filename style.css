@@ -618,7 +618,7 @@ article {
         padding-right: 3rem;
         z-index: 101;
     }
-        .nav-list li{           
+    .nav-list li{           
            
            margin-bottom: -2rem;  
         }
@@ -630,10 +630,60 @@ article {
         .logo{
             color:#0010ee; /* Mantenha sua cor de teste */
         }
+
+
         article {
-            padding-left: 1.5rem;
-            padding-right: 1.5rem; /* Padding mais adequado para celulares */
-        }
+   
+    min-height: 50%;
+   
+}
+
+
+.banner {
+  max-width: 50%;
+  margin-left: -4rem;
+  padding: 1rem;
+  margin-top: 7rem;
+
+
+}
+
+.banner h2 {
+  font-size: 2.3rem;
+  margin-bottom: 4.1rem;
+  position: relative;
+  z-index: 2;
+}
+
+.banner p {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.square {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-color: var(--main-color);
+  position: absolute;
+  z-index: 1;
+  left: 20px;
+  top: 40px;
+}
+
+.dots {
+  display: flex;
+  gap: 2rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 3rem;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background-color: var(--secondary-color);
+}
         article h1 { font-size: 31px; }
         article h3 { font-size: 19px; }
         article p { font-size: 17px; }
