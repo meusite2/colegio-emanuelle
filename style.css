@@ -592,12 +592,12 @@ section h1{
         max-width: 70%;
         margin-left: -4rem;
         padding: 1rem;
-        margin-top: -10rem;
+        margin-top: -12rem;
     }
     .banner h2 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin-bottom: 1rem;        
-        margin-top: 1.5rem;
+        margin-top: 1.3rem;
         position: relative;
         z-index: 2;
         padding-left: 5rem;
@@ -606,7 +606,7 @@ section h1{
         font-size: 1rem;
         font-weight: normal;
         padding-left: 5rem;
-        margin-top: 2.0rem;
+        margin-top: 2rem;
     }
     .square {
         display: block;
