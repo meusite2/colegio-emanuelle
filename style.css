@@ -634,12 +634,14 @@ article {
 
         article {
    
-    min-height: 60%;
+    min-height: 100%;
    
 }
 
 
 .banner {
+    height: 50%;
+
   max-width: 50%;
   margin-left: -4rem;
   padding: 1rem;
