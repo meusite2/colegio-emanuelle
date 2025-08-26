@@ -597,7 +597,7 @@ section h1{
     .banner h2 {
         font-size: 1.5rem;
         margin-bottom: 1rem;        
-        margin-top: 5rem;
+        margin-top: 1.5rem;
         position: relative;
         z-index: 2;
         padding-left: 5rem;
@@ -606,7 +606,7 @@ section h1{
         font-size: 1rem;
         font-weight: normal;
         padding-left: 5rem;
-        margin-top: 2.4rem;
+        margin-top: 2.0rem;
     }
     .square {
         display: block;
@@ -615,7 +615,7 @@ section h1{
         position: absolute;
         z-index: 1;
         left: 5rem;
-        top: 5rem;
+        top: 1rem;
         
     }
     .dots {
@@ -646,8 +646,16 @@ section h1{
     .grid-container {
         grid-template-rows: 150px 600px auto 80px;
     }
+#contact img{
 
-
+    display: none;
+}
+#contact-information {
+    position: relative;
+    text-align: left;
+    padding: 4.5rem;
+    
+}
 
     #footer {
     
