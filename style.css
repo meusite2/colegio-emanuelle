@@ -566,7 +566,7 @@ section h1{
     .mobile-menu {
         display: block;
         position: absolute;
-        top: 1rem;
+        top: 5.3rem;
         padding-right: 3rem;
         z-index: 101;
         right: 0;
