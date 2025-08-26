@@ -595,7 +595,8 @@ section h1{
     }
     .banner h2 {
         font-size: 1.5rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
+        margin-top: 4rem;
         position: relative;
         z-index: 2;
         padding-left: 5rem;
@@ -604,6 +605,7 @@ section h1{
         font-size: 1rem;
         font-weight: normal;
         padding-left: 5rem;
+        margin-top: 3rem;
     }
     .square {
         display: block;
@@ -612,7 +614,7 @@ section h1{
         position: absolute;
         z-index: 1;
         left: 5rem;
-        top: 20px;
+        top: 5rem;
         
     }
     .dots {
