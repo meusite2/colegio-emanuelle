@@ -585,13 +585,13 @@ section h1{
     }
     .banner {
         height: 50%;
-        max-width: 70%;
+        max-width: 50%;
         margin-left: -4rem;
         padding: 1rem;
         margin-top: -10rem;
     }
     .banner h2 {
-        font-size: 1.3rem;
+        font-size: 2rem;
         margin-bottom: 1rem;        
         margin-top: 1.3rem;
         position: relative;
@@ -599,7 +599,7 @@ section h1{
         padding-left: 5rem;
     }
     .banner p {
-        font-size: 1rem;
+        font-size: 1.3rem;
         font-weight: normal;
         padding-left: 5rem;
         margin-top: 2rem;
