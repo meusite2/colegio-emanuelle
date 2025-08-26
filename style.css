@@ -540,7 +540,15 @@ section h1{
 }
 
 /* ===================== RESPONSIVO ===================== */
+@media (min-width:1023px) and (max-width:1440px){
+    .nav-list{
+        font-size: 16px;
+        font-weight:400;
+        margin-bottom:40px;
+        padding-left: 18rem;
+}
 
+}
 @media (min-width:768px) and (max-width:1023px){
     .nav-list {
         position: fixed;
