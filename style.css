@@ -633,6 +633,69 @@ section h1{
     .grid-container {
         grid-template-rows: 150px 600px auto 80px;
     }
+
+
+
+    #footer {
+    
+    padding: 3rem 1rem 2rem;
+}
+#footer i {
+    font-size: 1rem;
+    padding: 0rem;
+}
+
+.contact-info,
+.links-container {
+    width: 20%;
+}
+.footer-brand {
+    margin-bottom: 2rem;
+}
+
+}
+
+
+
+.social-networks p {
+    margin-bottom: 1rem;
+}
+.networks {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+#footer .networks i {
+    padding: 1rem;
+    background-color: var(--main-color);
+}
+.links-container h4 {
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+.links-container nav {
+    display: flex;
+    flex-direction: column;
+}
+.links-container nav a {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--secondary-color);
+    text-decoration: none;
+}
+.phone-number {
+    display: flex;
+    border: 1px solid var(--main-color);
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.phone-info {
+    color: var(--secondary-color);
+}
+.bi-telephone{
+    background-color: var(--main-color);
+}
 }
 .mobile-menu.active .line1{
     transform: rotate(-45deg) translate(-8px, 8px);
