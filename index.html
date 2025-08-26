@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colegio Emanuelle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"/>
+</head>
+<body>
+    <div class="grid-container">
+    <header>
+        <div class="social-bar">
+            <div class="social-icones">
+                    <a href="#" class="social-link" id="instagram">
+                        <i class="fa-brands fa-instagram" ></i>
+                    </a>
+                    <a href="#" class="social-link" id="facebook">
+                        <i class="fa-brands fa-facebook" ></i>
+                    </a>
+                    <a href="#" class="social-link" id="youtube">
+                        <i class="fa-brands fa-youtube" > </i>
+                    </a>
+            </div>
+        </div>
+        <img src="assets/LOGO.png"" class="logo">
+        <nav class="nav-bar">            
+            <ul class="nav-list">
+                <li><a href="#home">Inicio</a></li>
+                <li class="has-submenu"><a href="#">Nossa Escola<span class="menu-arrow">▼</span></a>
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="#">Proposta Pedagógica</a></li>
+                            <li><a href="#">Nossa história</a></li>
+                            <li><a href="#">Nossos projetos</a></li>
+                            <li><a href="#">Galeria</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#noticias">Notícias</a></li>
+                <li><a href="#">Fale conosco</a></li>
+                <li><a href="#">Matrículas</a></li>
+
+            </ul>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+
+            </div>
+        </nav>
+        
+    </header>
+    <main>
+        <article id="home"> 
+<div class="banner active">
+        <span class="square"></span>
+        <h2>Conheça o nosso espaço</h2>
+        <p>
+          Ambiente Seguro e Acolhedor: Um espaço pensado para o bem-estar para os alunos
+        </p>
+      </div>
+      <div class="banner">
+        <span class="square"></span>
+        <h2>Conheça os nossos professores</h2>
+        <p>
+          Professores Qualificados: Uma equipe dedicada ao desenvolvimento pleno dos alunos.
+        </p>
+      </div>
+      <div class="banner">
+        <span class="square"></span>
+        <h2>Conheça os nossos projetos</h2>
+        <p>
+          Metodologia que estimulam a criatividade, a curiosidade e o desejo de aprender.
+        </p>
+      </div>
+      <div class="dots">
+        <div class="dot active"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+        </article>
+
+        <section id="noticias">
+            <h1>NOTÍCIAS</h1>
+            <div class="cards-container">
+            <div class="card" >
+                <a href="#" target="_blank"><img src="assets/img1-noticias.png" alt=""></a>
+                <div class="card-titulo">Dia do coordenador</div>
+                <div class="card-descricao">Descrição:</div>
+                <div class="card-texto">
+                     Hoje celebramos o Dia do Coordenador Pedagógico e também agradecemos a todos os nossos coordenadores educacionais, que caminham ao lado dos professores e alunos, garantindo que o aprendizado aconteça de forma significativa, organizada e humana.
+                </div>
+            </div>
+            <div class="card" >
+                <a href="#" target="_blank"><img src="assets/img2-noticias.png" alt=""></a>
+                <div class="card-titulo">Dia do Estudante</div>
+                <div class="card-descricao">Descrição:</div>
+                <div class="card-texto">
+                    Cada estudante é parte de um propósito maior: formar pessoas que aprendem com conteúdo e também com valores.
+                    Que desenvolvem disciplina sem perder a empatia.
+                    Que crescem no saber, mas sobretudo no ser.
+                    Hoje celebramos quem torna essa missão possível todos os dias.
+                    Feliz Dia do Estudante!
+                </div>
+            </div>
+            <div class="card" >
+                <a href="#" target="_blank"><img src="assets/img3-noticias.png" alt=""></a>
+                <div class="card-titulo">Volta às aulas</div>
+                <div class="card-descricao">Descrição:</div>
+                <div class="card-texto">
+                     Dia 04/08 – segunda-feira, vamos retornar com um nova oportunidade para aprender, crescer e conquistar seus sonhos. ✨
+                    Sejam bem-vindos!🤗
+                </div>
+            </div>
+            </div>  
+        </section>
+            <!-- Contato -->
+    <section id="contact" class="text-image-section">
+      <div id="contact-image-container" class="image-container">
+        <img src="assets/img-contato.png" alt="img-contato" />
+      </div>
+      <div id="contact-information" class="text-container">        
+        <p class="section-subtitle">Entre em contato</p>
+        <form>
+          <div class="form-control">
+            <input type="text" name="name" id="name" placeholder="Nome" />
+            <input type="email" name="email" id="email" placeholder="E-mail" />
+          </div>
+          <input type="text" name="phone" id="phone" placeholder="Telefone" />
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Sua mensagem..."
+          ></textarea>
+          <input type="submit" value="Enviar" class="btn" />
+        </form>
+      </div>
+    </section>
+            <footer id="footer">
+      <div class="contact-info">
+        <div class="footer-brand">
+          <h2>Colégio Emanuelle</h2>
+          <p>Educando com amor e seriedade!</p>
+        </div>
+        <p><i class="bi bi-geo-alt"></i> R. José Júlio Frota, 129 - Bonsucesso, Fortaleza - CE.</p>
+        <p><i class="bi bi-telephone"></i> (85) 3047-8682</p>
+        <p><i class="bi bi-envelope"></i> contato@colegioemanuelle.com</p>
+        <div class="social-networks">
+          <p>Siga-nos:</p>
+          <div class="networks">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="links-container">
+        <h4>Nossa Escola</h4>
+        <nav>
+          <a href="#">Proposta pedagógica</a>
+          <a href="#">Nossa história</a>
+          <a href="#">Nossos projetos</a>
+          <a href="#">Galeria</a>
+        </nav>
+      </div>
+      <div class="links-container">
+        <h4>Páginas</h4>
+        <nav>
+          <a href="#">Início</a>
+          <a href="#">Nossa escola</a>
+          <a href="#">Notícias</a>
+          <a href="#">Fale conosco</a>
+        </nav>
+      </div>
+      <div class="links-container">
+        <h4>Fale conosco</h4>
+        <div class="phone-number">
+          <i class="bi bi-telephone"></i>
+          <p> (85) 3047-8682</p>
+        </div>
+        <p class="phone-info">
+          Entre em contato com a nossa secretaria.
+        </p>
+      </div>
+    </footer>
+    </main>
+    </div>
+    <script src="script.js"></script>  
+</body>
+</html>
