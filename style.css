@@ -540,10 +540,10 @@ section h1{
 }
 
 /* ===================== RESPONSIVO ===================== */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     article {
         min-height: 100%;
-        width: auto;
+        
     }
 }
 @media (max-width: 768px) {
@@ -582,8 +582,7 @@ section h1{
         color:#0010ee;
     }
     article {
-        min-height: 100%;
-        padding-left: 5rem;
+        min-height: 100%;        
     }
     .banner {
         height: 50%;
@@ -597,20 +596,22 @@ section h1{
         margin-bottom: 4.1rem;
         position: relative;
         z-index: 2;
+        padding-left: 5rem;
     }
     .banner p {
         font-size: 1.5rem;
         font-weight: normal;
+        padding-left: 5rem;
     }
     .square {
         display: block;
         width: 100px;
-        height: 100px;
-        background-color: var(--main-color);
+        height: 100px;       
         position: absolute;
         z-index: 1;
-        left: 10px;
+        left: 5rem;
         top: 20px;
+        
     }
     .dots {
         display: flex;
