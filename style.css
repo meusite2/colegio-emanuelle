@@ -634,7 +634,7 @@ article {
 
         article {
    
-    min-height: 50%;
+    min-height: 60%;
    
 }
 
@@ -662,13 +662,13 @@ article {
 
 .square {
   display: block;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   background-color: var(--main-color);
   position: absolute;
   z-index: 1;
-  left: 20px;
-  top: 40px;
+  left: 10px;
+  top: 20px;
 }
 
 .dots {
