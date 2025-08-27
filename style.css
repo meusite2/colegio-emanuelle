@@ -813,7 +813,7 @@ section h1{
 }
 }
 
-@media (max-width: 480px) {
+@media (min-width:320px) and (max-width:480px){
     .nav-list {
         position: fixed;
         top: 0;
@@ -912,27 +912,41 @@ section h1{
         grid-template-rows: 150px 600px auto 80px;
     }
 
-#contact-information {
-    padding: 1rem;
-    flex: 1 1 0;
-}
 
-#contact-information form {
-    gap: 1rem;
-}
-#contact-information .form-control {
-    gap: 1rem;
-}
-#contact-information input,
-#contact-information textarea {
-    flex: 0.5;
-    padding: 1rem;
-}
-#contact-information .btn {
-    font-size: 1.2rem;
-    transition: 0.4s;
-}
 
+  .text-image-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .image-container, .text-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .form-control {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-control input {
+    margin-bottom: 10px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 10px;
+  }
+}
     #footer {
     
     padding: 3rem 1rem 2rem;
