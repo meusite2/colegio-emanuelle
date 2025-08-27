@@ -25,11 +25,11 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
- 
+    overflow: hidden;
 }
 main {
     height: 100vh;
-   
+    overflow-y: auto;
 }
 
 
