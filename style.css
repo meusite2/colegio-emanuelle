@@ -947,6 +947,7 @@ section h1{
 .footer-brand {
     margin-bottom: 1rem;
     font-size: 0.6rem;
+    width: 6rem;
 }
 .footer-submenu{
     margin-top: -2rem;
