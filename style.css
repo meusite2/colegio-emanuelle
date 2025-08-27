@@ -846,55 +846,38 @@ section h1{
     .logo{
         color:#0010ee;
     }
-    article {
-        min-height: 100%;  
-        background-image: url(assets/Design\ sem\ nome\ \(9\)\ -\ Copia.png);  
-        top: 6rem;
-               
-    }
-    .banner {
-        height: 50%;
-        max-width: 70%;
-        margin-left: -4rem;
-        padding: 1rem;
-        margin-top: -12rem;
-    }
-    .banner h2 {
-        font-size: 1.3rem;
-        margin-bottom: 1rem;        
-        margin-top: 1.3rem;
-        position: relative;
-        z-index: 2;
-        padding-left: 5rem;
-    }
-    .banner p {
-        font-size: 1rem;
-        font-weight: normal;
-        padding-left: 5rem;
-        margin-top: 2rem;
-    }
-    .square {
-        display: block;
-        width: 80px;
-        height: 80px;       
-        position: absolute;
-        z-index: 1;
-        left: 5rem;
-        top: 1rem;
-        
-    }
-    .dots {
-        display: flex;
-        gap: 2rem;
-        position: absolute;
-        bottom: 1rem;
-        left: 3rem;
-    }
-    .dot {
-        width: 12px;
-        height: 12px;
-        background-color: var(--secondary-color);
-    }
+  #home {
+    padding: 1rem;
+  }
+
+  .banner {   
+    max-width: 100%;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .banner h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  .banner p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .dot {
+    margin: 0 0.5rem;
+    width: 10px;
+    height: 10px;
+  }
+}
     #noticias{
         top: 6rem;
     }
