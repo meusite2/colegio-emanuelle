@@ -25,12 +25,13 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+ 
 }
 main {
     height: 100vh;
-    overflow-y: auto;
+   
 }
+
 
 /* ===================== GRID CONTAINER ===================== */
 .grid-container {
@@ -843,9 +844,7 @@ section h1{
         margin-bottom: -2rem;
     }
 
-    .logo{
-        color:#0010ee;
-    }
+
     article {
         min-height: 100%;  
         background-image: url(assets/Design\ sem\ nome\ \(9\)\ -\ Copia.png);  
@@ -855,7 +854,7 @@ section h1{
     .banner {
         height: 50%;
         max-width: 70%;
-        margin-left: -4rem;
+        left: 0rem;
         padding: 1rem;
         margin-top: -12rem;
     }
