@@ -40,7 +40,7 @@ main {
         "header header header"
         "article article article"
         "section section section"
-        "contact contact contact"
+   
         "footer footer footer"
     ;
     grid-template-rows: 150px auto auto auto;
@@ -814,11 +814,189 @@ section h1{
 }
 
 @media (max-width: 480px) {
+    .nav-list {
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #fff;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        transition: right 0.3s ease-in-out;
+        z-index: 100;
+        padding: 30px;
+    }
+    .nav-list.active {
+        right: 0;
+    }
+    .mobile-menu {
+        display: block;
+        position: fixed;
+        top: 7rem;
+        padding-right: 3rem;
+        z-index: 101;
+        right: 0;
+    }
+    .nav-list li{
+        margin-bottom: -2rem;
+    }
+
+    .logo{
+        color:#0010ee;
+    }
     article {
-        min-height: 100%;
+        min-height: 100%;  
+        background-image: url(assets/Design\ sem\ nome\ \(9\)\ -\ Copia.png);  
+        top: 6rem;
+               
+    }
+    .banner {
+        height: 50%;
+        max-width: 70%;
+        margin-left: -4rem;
+        padding: 1rem;
+        margin-top: -12rem;
+    }
+    .banner h2 {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;        
+        margin-top: 1.3rem;
+        position: relative;
+        z-index: 2;
+        padding-left: 5rem;
+    }
+    .banner p {
+        font-size: 1rem;
+        font-weight: normal;
+        padding-left: 5rem;
+        margin-top: 2rem;
+    }
+    .square {
+        display: block;
+        width: 80px;
+        height: 80px;       
+        position: absolute;
+        z-index: 1;
+        left: 5rem;
+        top: 1rem;
         
     }
+    .dots {
+        display: flex;
+        gap: 2rem;
+        position: absolute;
+        bottom: 1rem;
+        left: 3rem;
+    }
+    .dot {
+        width: 12px;
+        height: 12px;
+        background-color: var(--secondary-color);
+    }
+    #noticias{
+        top: 6rem;
+    }
+
+    .card-texto{
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-top: 15px;
 }
+    article h1 { font-size: 31px; }
+    article h3 { font-size: 19px; }
+    article p { font-size: 17px; }
+    .grid-container {
+        grid-template-rows: 150px 600px auto 80px;
+    }
+
+#contact-information {
+    padding: 1rem;
+    flex: 1 1 0;
+}
+
+#contact-information form {
+    gap: 1rem;
+}
+#contact-information .form-control {
+    gap: 1rem;
+}
+#contact-information input,
+#contact-information textarea {
+    flex: 0.5;
+    padding: 1rem;
+}
+#contact-information .btn {
+    font-size: 1.2rem;
+    transition: 0.4s;
+}
+
+    #footer {
+    
+    padding: 3rem 1rem 2rem;
+}
+#footer i {
+    font-size: 1rem;
+    padding: 0.1rem;
+    
+}
+
+.contact-info,
+.links-container {
+    width: 20%;
+}
+.footer-brand {
+    margin-bottom: 1rem;
+    font-size: 0.6rem;
+}
+.footer-submenu{
+    margin-top: -2rem;
+}
+.dados{
+     font-size: 0.7rem;
+}
+.social-networks p {
+    margin-bottom: 1rem;
+    
+    
+}
+.networks {
+    margin-top: 2rem;    
+    display: flex;
+    gap: 1rem;
+    
+}
+#footer .networks i {
+    padding: 1rem;
+    margin: 0.2rem;
+    
+    
+    background-color: var(--main-color);
+}
+
+
+.links-container nav a {
+    padding-bottom: 0.8rem;
+    font-size: 0.8rem;
+}
+.phone-number {
+    gap: 0.3rem;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 0.6rem;
+}
+.phone-info {
+    color: var(--secondary-color);
+    
+}
+.bi-telephone{
+    background-color: var(--main-color);
+    
+}
+}
+
 
 .mobile-menu.active .line1{
     transform: rotate(-45deg) translate(-8px, 8px);
