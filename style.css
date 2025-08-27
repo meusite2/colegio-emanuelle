@@ -32,7 +32,6 @@ main {
     overflow-y: auto;
 }
 
-
 /* ===================== GRID CONTAINER ===================== */
 .grid-container {
     display: grid;
@@ -752,7 +751,7 @@ section h1{
 
     #footer {
     
-    padding: 3rem 1rem 4rem;
+    padding: 3rem 1rem 2rem;
 }
 #footer i {
     font-size: 1rem;
@@ -815,41 +814,11 @@ section h1{
 }
 
 @media (max-width: 480px) {
-    html, body {
-        max-width: 100vw;
-        overflow-x: hidden;
-    }
-    .grid-container,
-    section,
-    #footer {
-        width: 100vw !important;
-        max-width: 100vw !important;
-        overflow-x: hidden;
-    }
-    .nav-list,
-    .banner,
-    .footer-brand,
-    .footer-submenu,
-    .links-container,
-    .contact-info {
-        box-sizing: border-box;
-        max-width: 100vw !important;
-        overflow-x: hidden;
-    }
-    .banner {
-        left: 0;
-        right: 0;
-        margin-left: 0;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-    }
-    .square {
-        left: 0.5rem;
-        top: 1rem;
+    article {
+        min-height: 100%;
+        
     }
 }
-
-
 
 .mobile-menu.active .line1{
     transform: rotate(-45deg) translate(-8px, 8px);
