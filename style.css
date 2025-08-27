@@ -877,7 +877,7 @@ section h1{
     width: 10px;
     height: 10px;
   }
-}
+
     #noticias{
         top: 6rem;
     }
@@ -929,7 +929,7 @@ section h1{
     width: 100%;
     padding: 10px;
   }
-}
+
     #footer {
     
     padding: 3rem 1rem 2rem;
@@ -973,7 +973,7 @@ section h1{
     background-color: var(--main-color);
 }
 
-
+}
 .links-container nav a {
     padding-bottom: 0.8rem;
     font-size: 0.8rem;
