@@ -920,14 +920,9 @@ section h1{
     margin-bottom: 20px;
   }
 
-  .form-control {
-    display: flex;
-    flex-direction: column;
-  }
 
   .form-control input {
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 10px;   
   }
 
   input[type="text"],
@@ -953,7 +948,17 @@ section h1{
     padding: 0.1rem;
     
 }
-
+#contact {
+    
+    gap: 0;
+    padding-bottom: 15rem;
+}
+#contact-information {
+    height: 10vh;
+    padding: 3rem;
+    flex: 1 1 0;
+    margin-left: 2rem;
+}
 .contact-info,
 .links-container {
     width: 20%;
