@@ -582,6 +582,9 @@ section h1{
     .nav-list li{
         margin-bottom: -2rem;
     }
+     header { 
+    height: 150px;
+    }
     .logo{
         height: 60px;
         width: auto;
@@ -834,7 +837,7 @@ section h1{
     .mobile-menu {
         display: block;
         position: fixed;
-        top: 7rem;
+        top: 5.5rem;
         padding-right: 3rem;
         z-index: 101;
         right: 0;
@@ -843,8 +846,12 @@ section h1{
         margin-bottom: -2rem;
     }
 
+     header { 
+    height: 150px;
+    }
     .logo{
-        color:#0010ee;
+        height: 60px;
+        width: auto;
     }
   #home {
     padding: 1rem;
